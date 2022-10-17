@@ -1,0 +1,64 @@
+<?xml version="1.0" encodign="UTF-8"?>
+<!--esto en un documento xml-->
+
+<agenda>
+    <persona país= "espanya">
+        <nom>Nicolas</nom>
+        <cognom>Ratia</cognom>
+        <direcció>Cerdanyola</direcció>
+        <telefòn>688918159</telefòn>
+            <casa>655261726</casa>
+            <terball>655356724</terball>
+            <mòbil>822733456</mòbil>
+
+    </persona>
+
+
+    <persona país= ''Espanya''>
+        <nom>Pablo</nom>
+        <cognom>Fernandez</cognom>
+        <direcció>Sant Cugat</direcció>
+        <telefòn>546723876</telefòn>
+           <telefòn>
+            <casa>673546872</casa>
+            <terball>745673452</terball>
+            <mòbil>546734562</mòbil>
+</telefòn
+    </persona>
+
+
+    <persona país= ''Espanya''>
+        <nom>Marc</nom>
+        <cognom>Garcia</cognom>
+        <direcció>Sabadell</direcció>
+        <telefòn>876546738</telefòn>
+            <casa>4356782435</casa>
+            <terball>53647893</terball>
+            <mòbil>6456783452</mòbil>
+
+    </persona>
+
+
+    <persona país= ''Espanya''>
+        <nom>Hugo</nom>
+        <cognom>Martin</cognom>
+        <direcció>Barclona</direcció>
+        <telefòn>876546734</telefòn>
+            <casa>234536724</casa>
+            <terball>356456783</terball>
+            <mòbil>3241563457</mòbil>
+
+    </persona>
+
+
+    <persona país= ''Espanya''>
+        <nom>Nuria</nom>
+        <cognom>Llibre</cognom>
+        <direcció>Ripollet</direcció>
+        <telefòn>657845678</telefòn>
+            <casa>874567892</casa>
+            <terball>356756470</terball>
+            <mòbil>856709345</mòbil>
+
+    </persona>
+</agenda>
