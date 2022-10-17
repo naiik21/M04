@@ -1,0 +1,34 @@
+{"pc_componentes":{
+    "device": {
+        "type": "computer",
+        "name": "MateBook",
+        "company": "Huawei",
+        "inches": "13",
+        "stock": "150",
+        "price": {"currency":"€"} "780"
+    },
+    "device2": {
+        "type": "computer",
+        "name": "Titan",
+        "company": "Slimbook",
+        "inches": "15.6",
+        "stock": "50",
+        "price": {"currency": "€"} ""
+    },
+    "device3": {
+        "type": "tablet",
+        "name": "Matepad",
+        "company": "Huawei",
+        "inches": "10.4",
+        "stock": "250",
+        "price": {"currency": "€"} 
+    },
+    "device4": {
+        "type": "smartphone",
+        "name": "P50 Pocket",
+        "company": "Huawei",
+        "inches": "9",
+        "stock": "345",
+        "price": {"currency": "€"} "999"
+    }
+}}
