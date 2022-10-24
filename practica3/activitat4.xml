@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<bookstore>
+    <book>
+        <title>star wars</title>
+        <publisher>disney</publisher>
+        <cover>dura</cover>
+        <price>13</price>
+    </book>
+    <book>
+        <title>harry poter</title>
+        <publisher>pepe</publisher>
+        <cover>blanda</cover>
+        <price>15</price>
+    </book>
+    <book>
+        <title>mortadelo y filemon</title>
+        <publisher>paco</publisher>
+        <cover>blanda</cover>
+        <price>10</price>
+    </book>
+    <book>
+        <title>geronimo stilton</title>
+        <publisher>maria</publisher>
+        <cover>dura</cover>
+        <price>9</price>
+    </book>
+</bookstore>
