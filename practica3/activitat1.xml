@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<students>
+    <student pais="ESPAÑA">
+        <nombre>manolo</nombre>
+        <apellido>garcia</apellido>
+        <email>1@gmail.com</email>
+        <dni>74837823T</dni>
+    </student>
+
+    <student2 pais="ESPAÑA">
+        <nombre>paco</nombre>
+        <apellido>torres</apellido>
+        <email>2@gmail.com</email>
+        <dni>92742374R</dni>
+    </student2>
+
+    <student3 pais="ESPAÑA">
+        <nombre>pedro</nombre>
+        <apellido>mancanares</apellido>
+        <email>3@gmail.com</email>
+        <dni>92747633P</dni>
+    </student3>
+
+    <student4 pais="ESPAÑA">
+        <nombre>david</nombre>
+        <apellido>gonzalez</apellido>
+        <email>4@gmail.com</email>
+        <dni>96815493F</dni>
+    </student4>
+
+    <student5 pais="ESPAÑA">
+        <nombre>mario</nombre>
+        <apellido>casas</apellido>
+        <email>5@gamil.com</email>
+        <dni>56492538R</dni>
+    </student5>
+</students>
