@@ -8,24 +8,24 @@
     },
     "book2": {
         "title": "harry poter",
-        "publisher": "Titan",
+        "publisher": "pepe",
         "cover": "blanda",
-        "price": "15.6"
+        "price": "15"
         
         
     },
     "book3": {
-        "title": "tablet",
-        "publisher": "Matepad",
-        "cover": "Huawei",
-        "price": "10.4"
+        "title": "mortadelo y filemon",
+        "publisher": "paco",
+        "cover": "blanda",
+        "price": "10"
         
        
     },
     "book4": {
-        "title": "smartphone",
-        "publisher": "P50 Pocket",
-        "cover": "Huawei",
+        "title": "geronimo stilton",
+        "publisher": "maria",
+        "cover": "dura",
         "price": "9"
         
         
