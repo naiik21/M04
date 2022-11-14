@@ -1,0 +1,21 @@
+caption{
+    color: blue;
+    padding-bottom: 5px;
+}
+
+table{
+    position: static;
+    
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th.color{
+    background: rgb(160, 151, 151);
+    border: 1px solid black;
+}
+
+td{
+    padding: 3px;
+    border: 1px solid black;
+}
