@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Practica 6</title>
+</head>
+<body>
+    <form><!--Aqui estoy abriendo el formulario donde se pondran todas las diferentes preguntas-->
+        <label>Name</label><br><!--con label declaras el nombre del input al que esta conectado-->
+        <input type="text" name="name" id="name"><br><!--con el input se declara el tipo, el nombre y el id-->
+        <label>Cognom</label><br>
+        <input type="text" name="cognom" id="cognom"><br>
+        <label>Edat</label><br>
+        <input type="number" name="edat" id="edat"><br>
+        
+
+        <p>Cicle formatiu que es vol cursar l'any vinent:</p><!--creo un paragrafo para preguntar-->
+        <label for="dam">DAM</label><!--se declara el label con el nombre que tendra el boton de radio que esta conectado debajo-->
+        <input type="radio" name="radio" id="dam" value="DAM"><br><!--en este input a diferencia del primero el tipo es radio que es un tipo de boton-->
+        <label for="asix">ASIX</label>
+        <input type="radio" name="radio" id="asix" value="ASIX"><br>
+        <label for="altres">Altres</label>
+        <input type="radio" name="radio" id="altres" value="Altres"><br>
+
+        <p>Marca les teves aficions: </p><!--otro paragrafo para preguntar aficiones-->
+        <label for="estudiar">Estudiar</label>
+        <input type="checkbox" name="check" id="estudiar"><br><!--el input es de tipo checkbox que es otro tipo de boton el cual deja marcar varias opciones-->
+        <label for="asix">ASIX</label>
+        <input type="checkbox" name="check" id="asix"><br>
+        <label for="llibres">Llibres</label>
+        <input type="checkbox" name="check" id="estudiar"><br>
+        <label for="magic">Jugar a Magic</label>
+        <input type="checkbox" name="check" id="magic"><br>
+        <label for="burilles">Fer burilles</label>
+        <input type="checkbox" name="check" id="burilles"><br>
+        <label for="otros">Altres</label><br><!--declaro el nombre del textarea-->
+        <textarea name="otros" id="otros" cols="30" rows="10"></textarea><br><!--esto es el textarea-->
+
+        <label for="html">L'estàndard d'HTML que més m'agrada:</label>
+        <select name="html" id="html"><!--el select es un desplegable con varias opciones que estan declaradas con la etiqueta option-->
+            <option value="html5">HTML 5</option>
+            <option value="xhtml1">XHTML 1.0</option>
+            <option value="html4">HTML 4.01</option>
+        </select>
+
+    </form>
+</body>
+</html>
