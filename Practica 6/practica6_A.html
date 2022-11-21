@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Practica 6</title>
+</head>
+<body>
+    <form>
+        <label>Name</label>
+        <input type="text" id="name" name="name"> <br> <!--text para escribir-->
+        <br><label>Cognom</label>
+        <input type="text" id="cognom" name="cognom"> <br> <!--id y name tienen que ser unicos en todo el documento-->
+        <br><label>Edat</label>
+        <input type="number" id="edat" name="edat"> <br><!--number para escribir numeros-->
+
+        <br><p>Cicle formatiu que es vol cursar l'ant vinent:</p>
+        <label for="dam">DAM</label>
+        <input type="radio" id="dam" name="cicleCursar" value="dam"><br><!--name tiene que ser el mismo para poder hacer seleccion unica-->
+        <label for="asix">ASIX</label>
+        <input type="radio" id="asix" name="cicleCursar" value="asix"><br>
+        <label for="altres">Altres</label>
+        <input type="radio" id="altres" name="cicleCursar" value="altres"><br>
+
+        <br><p>Marca les teves aficions: </p>
+        <label>Estudiar </label><input type="checkbox"><br><!--checbox hace una seleccion multiple-->
+        <label>ASIX </label><input type="checkbox"><br>
+        <label>Llibre </label><input type="checkbox"><br>
+        <label>Jugar a Magic </label><input type="checkbox"><br>
+        <label>Fer burilles </label><input type="checkbox"><br>
+
+        <label for="altres">Altres</label>
+        <textarea name="altres" rows="10" cols="50">Especifica quines</textarea>
+        <br>
+
+        <br><label>L'estàndard d'HTML que més m'agrada:</label>
+        <select id="estàndard" name="estàndard"><!-- select para un deplegable y en option se pone las diferentes opciones-->
+            <option value="HTML4.01">HTML4.01</option>
+            <option value="XHTML1.0">XHTML1.0</option>
+            <option value="HTML5">HTML5</option>
+        </select>
+    </form>
+</body>
