@@ -1,0 +1,36 @@
+.item1{ /*Aqui declaramos el div que queremos modificar con el class que se identifica primero con un punto y el nombre */
+    background-color: yellow;/* aqui añadimos el color del fondo*/
+    position: absolute;/*con position declaramos si queremos que este en posicion absoluta o relativa*/
+    width: 160px;/* aqui escogemos en tamaño en horizontal del cuadro*/
+    height: 120px;/*aqui en vertical*/
+    margin-top: 40px;/*el margen que se deja en el marco superior*/
+    margin-left: 20px;/*el margen que se deja en el marco izquierdo*/
+}
+.item2{
+    background-color: rgb(18, 160, 255);
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.item3{
+    background-color: rgb(0, 255, 94);
+    position: absolute;
+    width: 160px;
+    height: 120px;
+    margin-top: 140px;
+    margin-left: 100px;
+
+    
+}
+.item4{
+    background-color: red;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 100px;
+    
+}
