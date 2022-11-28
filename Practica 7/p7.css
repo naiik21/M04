@@ -1,0 +1,32 @@
+.item1{
+    position: absolute; /* declarams que esta en posicion aboluta */
+    background-color: rgb(92, 146, 182);/* Declaramos el color del fondo*/
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 160px;
+    height: 120px;
+}
+.item2{
+    position: relative; /* declarams que esta en posicion relativa */
+    background-color: rgb(255, 255, 0); 
+    margin-top: 20px; /* margen que dejamos con la parte superior*/   
+    margin-left: 20px; /* margen que dejamos con la izquierda*/
+    width: 40px;
+    height: 40px;
+}
+.item3{
+    position: absolute; /* al estar es absoluta los margenes son del borde del body */
+    background-color: rgb(253, 69, 69);
+    margin-top: 140px;    
+    margin-left: 100px;
+    width: 160px; /* anchura del recuadro*/
+    height: 120px; /* altura del recuadro*/
+}
+.item4{
+    position: relative; /* al estar en relativa los margenes son del qudarado ya que esta un div dentro del otro*/
+    background-color: rgb(122, 195, 122);
+    margin-top: 60px;  
+    margin-left: 100px;
+    width: 40px;
+    height: 40px;
+}
