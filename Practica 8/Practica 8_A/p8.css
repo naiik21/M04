@@ -1,9 +1,124 @@
-.izq{
+.header{
     display:flex;
-    flex-direction: row;
+    justify-content: space-between; 
+    
+
 }
 
+.izq{
+    display:flex;
+    justify-content: space-between;
+    flex-basis: 150px;
+    align-items: center;
+
+}
 .item1{
     display:flex;
+    justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
+    width: 87px;
+ 
+}.item2{
+    display:flex;
+    justify-content: space-between;
+    
+} 
+
+
+.der{
+    display:flex;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+}
+.item3{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 110px;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.ser{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 582px;
+    border-radius: 100px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+	margin-bottom: 27px;
+}
+.item4{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 110px;
+}
+.ext{
+    display:flex;
+    height: 50px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.alt{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+}
+.busc{
+    background-color: rgb(235, 235, 235);
+}
+.suer{
+    background-color: rgb(235, 235, 235);
+}
+.idioma{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 400px;
+}
+.footer{
+    height: 400px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.f1{
+    height: 40px;
+    display:flex;
+    align-items: center;
+}
+.f2{
+    height: 40px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.f2_1{
+    width: 400px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.f2_2{
+    width: 300px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
