@@ -10,14 +10,14 @@
     justify-content: space-between;
     flex-basis: 150px;
     align-items: center;
-
+    margin-left: 10px;
 }
 .item1{
     display:flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 87px;
+    width: 88px;
  
 }.item2{
     display:flex;
@@ -29,7 +29,7 @@
 .der{
     display:flex;
     justify-content: space-between;
-    width: 400px;
+    width: 300px;
     align-items: center;
 }
 .item3{
@@ -39,17 +39,22 @@
     width: 110px;
 }
 .logo{
+    height: 250px;
     display:flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+}
+.lupa{
+    margin-left: 5px;
 }
 .ser{
     display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 582px;
+    height: 44px;
     border-radius: 100px;
     border: 1px solid #ddd;
     margin: 0 auto;
@@ -91,10 +96,9 @@
     width: 400px;
 }
 .footer{
-    height: 400px;
     display:flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-content: space-around;
 }
 .f1{
     height: 40px;
@@ -102,6 +106,7 @@
     align-items: center;
 }
 .f2{
+    width: 1400px;
     height: 40px;
     display:flex;
     flex-direction: row;
