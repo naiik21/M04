@@ -1,0 +1,115 @@
+body{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: small;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+    
+}
+.header button{
+    background-color: dodgerblue;
+    padding: 10px 15px;
+	border: 1px solid rgb(255, 255, 255);
+	border-radius: 5px;
+	color: #ffffff;
+	font-size: 14px;
+    cursor: pointer;
+}
+.header button:hover{
+	border-color: #bbb;
+	box-shadow: 0 1px 1px #ddd;
+}
+#izqA{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 150px;
+    
+}
+#derA{
+    display: flex;   
+    justify-content: space-between;
+    flex-basis: 280px;
+    align-items: center;
+    
+}
+#item1{
+    display: flex;
+    flex-direction: row;
+    width: 90px;
+    justify-content: space-between;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 150px;
+}
+.dni{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+	
+}
+#dni1{
+	width: 130px;
+	
+}
+#dni2{
+	width: 130px;
+}
+.dni-L{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+}
+.Raul{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+.Nico{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+footer a:hover{
+	text-decoration: underline;
+}
+footer{
+	width: 100%;
+	height: 82px;
+	position: absolute;
+	bottom: 0;
+	background: #ffffff;
+}
+footer .pais,
+footer .links{
+	color: rgba(0, 0, 0, 0.54);
+	font-size: 15px;
+	height: 50%;
+	padding: 0 30px;
+	display: flex;
+	align-items: center;
+}
+footer .pais{
+	justify-content: flex-start;
+	border: 1px solid #000000;
+}
+footer .links{
+	justify-content: space-between;
+}
+footer ul li{
+	display: inline;
+}
+footer .links a{
+		color: #000000;
+		margin-right: 23px;
+		font-size: 14px;
+}
+footer .links ul li:last-child a{
+	margin: 0;
+}
